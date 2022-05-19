@@ -285,5 +285,72 @@ if(height){
 
 */
 
+// Equality Operators == vs. ===
+/*
+const age = '18';
+if(age === 18) console.log('You just becamer an adult :D (strict)');
+
+if (age == 18) console.log('You just becamer an adult :D (loose)');
+
+const favourite = Number (prompt("What's your favorite number?"));
+console.log(typeof favourite);
+
+if(favourite === 23) {
+    console.log('Cool! 23 is an amazing number!')
+} else if(favourite === 7) {
+    console.log('7  is also a cool number')
+} else if (favourite === 9) {
+    console.log('9 is also a cool number')
+} else{
+    console.log('Number is not 23 or 7')
+}
+
+if(favourite !== 23) console.log('Why not 23?');
+
+*/
+
+// Logic operators
+
+// const hasDriverLicense = true; // A
+// const hasGoodVision = true; // B
+
+// console.log(hasDriverLicense && hasGoodVision); // and operator** true and false = false 
+// console.log(hasDriverLicense || hasGoodVision); // or operator** true or false = true
+// console.log(!hasDriverLicense); // not operator**
+
+
+// const shouldDrive = hasDriverLicense && hasGoodVision;
+
+// // if(hasDriverLicense && hasGoodVision) {
+// //     console.log('Sarah is able to drive!')
+// // } else {
+// //     console.log('Someone else should drive...');
+// // }
+
+// const isTired = false; // C
+// console.log(hasDriverLicense && hasGoodVision && isTired);
+
+// if (hasDriverLicense && hasGoodVision && !isTired) {
+//     console.log('Sarah is able to drive!')
+// } else {
+//     console.log('Someone else should drive...');
+// }
+
+
+const scoreDolphins = (96 + 108 + 89) /3;
+const scoreKoalas = (88 + 91 + 110) /3;
+console.log(scoreDolphins, scoreKoalas);
+
+if(scoreDolphins > scoreKoalas) {
+    console.log('Dolphins win the trophy');
+} else if (scoreKoalas > scoreDoplhins){
+    console.log('Koalas wins the trophy');
+} else if (scoreDolphins === scoreKoalas){
+    console.log('Both win the trophy!');
+}
+
+
+
+
 
 
